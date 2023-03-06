@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13.8px;
+  } 
+
+  header {
+    background-color: #33658A;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  }
+  
+  header > div {
+    width:1816px;
+    position:relative;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin:22px;
+    font-weight: bold;
+  }
+   
+  
+  .logo {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .port {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFB100;
+  }
+
+  .hub {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFB100;
+  }
+  
+
+ 
+  
+  #simula {
+    background-color: #2B3467;
+    padding: 3rem 1rem;
+  }
+  
+  #simula > div {
+    text-align: center;
+  }
+  
+  #simula div h1 {
+    font-size: 3rem;
+    color: #FCFFE7;
+    margin: 0;
+  }
+  
+  #simula div h3 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #simula div p {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+  
+  #simula div h3 {
+    color: #EB455F;
+  }
+
+  #simula div p {
+    color: #FCFFE7;
+  }
+  
+  #simula button {
+    border: 0;
+    background-color: white;
+    color: #2F4858;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  #simula button:hover {
+    background-color: #EB455F;
+    color: white;
+  }
+  
+  #simula img {
+    max-width: 700px;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  section > h1 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+
+
+
+  #tungkol {
+    padding: 2rem;
+    background-color: #BAD7E9;
+  }
+  
+  #tungkol > div {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  
+  .tungkol-container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .mukha {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  
+  .tungkol-texto {
+    max-width: 400px;
+    width: 120%;
+    margin: auto;
+    font-weight: bold;
+    text-align:center;
+
+  }
+  
+  #tungkol p {
+    line-height: 1.5rem;
+  }
+
+
+
+  
+  #kampanyas {
+    background-color: #2B3467;
+    padding: .1px;
+  }
+  
+  #kampanyas h1 {
+    color: white;
+  }
+  
+  #kampanyas > div {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .kampanya {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  .kampanya p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, .6);
+  }
+  
+  .kampanya:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #kampanyas img {
+    max-width: 400px;
+    width: 100%;
+  }
+
+
+
+  
+  #tawag {
+    background-color: #BAD7E9;
+    padding: .1px;
+    color: white;
+  }
+  
+  #tawag > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  #tawag h3 {
+    text-align: center
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea, button {
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 5px;
+    margin: .3rem;
+  }
+  
+  #tawag button {
+    background-color: #EB455F;
+    color: #FCFFE7;
+    padding: .7rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #tawag h1, h3 {
+    color: #050505;
+    padding: .7rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+
+  
+  
+  footer {
+    background-color: #2F4858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  footer > div {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    left:272px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+    margin: .5rem;
+    display: block;
+  }
+  
+  footer nav {
+    margin-top: 1rem;
+    position:relative;
+    left:68px;
+  }
+  
+  footer p {
+    position:relative;
+    left:-88px;
+    color: white;
+    font-size: .8rem;
+  }
+  
